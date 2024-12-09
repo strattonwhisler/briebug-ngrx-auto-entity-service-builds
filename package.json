@@ -1,0 +1,58 @@
+{
+  "version": "17.0.0-alpha.1",
+  "name": "@briebug/ngrx-auto-entity-service",
+  "description": "Prefabricated reusable Entity Service for NgRx Auto-Entity",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": {
+    "name": "BrieBug",
+    "url": "https://briebug.com"
+  },
+  "contributors": [
+    {
+      "name": "Jon Rista",
+      "url": "https://github.com/jrista"
+    },
+    {
+      "name": "Cole Sanders",
+      "url": "https://github.com/colesanders"
+    }
+  ],
+  "keywords": [
+    "ngrx",
+    "ngrxae",
+    "ngrxaes",
+    "entity",
+    "auto-entity",
+    "automatic entities",
+    "entity service",
+    "service"
+  ],
+  "homepage": "https://briebug.gitbook.io/ngrx-auto-entity/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briebug/ngrx-auto-entity.git"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "17.x",
+    "@angular/core": "17.x",
+    "rxjs": "7.x",
+    "@briebug/ngrx-auto-entity": "17.x"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/briebug-ngrx-auto-entity-service.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/briebug-ngrx-auto-entity-service.mjs",
+      "esm": "./esm2022/briebug-ngrx-auto-entity-service.mjs",
+      "default": "./fesm2022/briebug-ngrx-auto-entity-service.mjs"
+    }
+  }
+}
